@@ -10,13 +10,13 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="g1"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="176"/>
-        <CursorPos X="17" Y="204"/>
+        <TopLine Value="100"/>
+        <CursorPos X="17" Y="122"/>
         <UsageCount Value="36"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="21">
+    <JumpHistory HistoryIndex="22">
       <Position>
         <Filename Value="p1.lpr"/>
         <Caret Line="22" Column="58"/>
@@ -104,6 +104,10 @@
       <Position>
         <Filename Value="p1.lpr"/>
         <Caret Line="307" Column="36" TopLine="281"/>
+      </Position>
+      <Position>
+        <Filename Value="p1.lpr"/>
+        <Caret Line="204" Column="17" TopLine="176"/>
       </Position>
     </JumpHistory>
     <RunParams>

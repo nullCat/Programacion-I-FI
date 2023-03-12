@@ -68,8 +68,13 @@ begin
  readln(random);
 
  //Cantidad de Elementos.
- write('> Ingrese la cantidad de elementos de X: ');
- readln(N);
+ repeat
+   write('> Ingrese la cantidad de elementos de X: ');
+   readln(N);
+   if(N > k) then
+     writeln('> Valor muy grande, elija uno mas pequeño');
+ until(N <= k);
+
 
  if(Respuesta(random)) then
  begin
@@ -119,6 +124,7 @@ var
   gamma : IntervaloSimple;
   min,max: integer;
 begin
+ TextColor(14);
  //inicializar gamma a null
  gamma.primerValor := 0;
  gamma.ultimoValor := 0;
@@ -174,9 +180,9 @@ begin
  begin
 
    if(alpha.ultimoValor > beta.ultimoValor) then
-     new_max := alpha.ultimoValor
+     new_max := beta.ultimoValor
    else
-     new_max := beta.ultimoValor;
+     new_max := alpha.ultimoValor;
 
    if(alpha.primerValor > beta.primerValor) then
      new_min := alpha.primerValor
@@ -213,7 +219,7 @@ var
   prom, i, N, sum, C : integer;
   X : W;
 begin
- TextColor(4);
+ TextColor(2);
  writeln('1) Dado N numeros naturales, determinar cuantos superan el promedio.');
  i := 1;
  sum := 0;
@@ -256,7 +262,7 @@ var
   i : byte;
 begin
  //consigna.
- TextColor(4);
+ TextColor(2);
  writeln('2) Dado un conjunto de N numeros reales y dos intervalos [A,B] y [C,D], donde A <> C y B <> D, encontrar: ');
  writeln('a) Porcentaje de numeros que pertenecen al intervalo [A,B]');
  writeln('b) Porcentaje de numeros que pertenecen al intervalo [C,D]');
@@ -283,36 +289,36 @@ begin
  //definir conjunto X.
  Definir_conjunto_simple(X, N);
  Mostrar_conjunto_simple(X, N);
+ omega := Int_intervalo_simple(alpha,beta);
  Blank_Space(2);
 
-
- //inciso a)
+ //incisos a,b,c y d)
  for i := 1 to N do
  begin
   if((X[i] >= alpha.primerValor) and (X[i] <= alpha.ultimoValor)) then
     N_alpha := N_alpha + 1;
+
+  if((X[i] >= beta.primerValor) and (X[i] <= beta.ultimoValor)) then
+    N_beta := N_beta + 1;
+
+  if(((X[i] >= beta.primerValor) and (X[i] <= beta.ultimoValor)) or ((X[i] >= alpha.primerValor) and (X[i] <= alpha.ultimoValor))) then
+    N_gamma := N_gamma + 1;
+
+  if((X[i] >= omega.primerValor) and (X[i] <= omega.ultimoValor)) then
+    N_omega := N_omega + 1;
  end;
+
+ //inciso a)
  p_alpha := (N_alpha * 100 / N);
 
  //inciso b)
- for i := 1 to N do
- begin
-  if((X[i] >= beta.primerValor) and (X[i] <= beta.ultimoValor)) then
-    N_beta := N_beta + 1;
- end;
  p_beta := (N_beta * 100 / N);
 
  //inciso c)
- for i := 1 to N do
- begin
-  if(((X[i] >= beta.primerValor) and (X[i] <= beta.ultimoValor)) or ((X[i] >= alpha.primerValor) and (X[i] <= alpha.ultimoValor))) then
-    N_gamma := N_gamma + 1;
- end;
  p_gamma := (N_gamma * 100 / N);
 
  //inciso d)
- omega := Int_intervalo_simple(alpha,beta);
- Mostrar_intervalo_simple(omega);
+ p_omega := (N_omega * 100 / N);
 
  //Escribir respuesta.
  TextColor(14);
@@ -324,7 +330,10 @@ begin
  Blank_Space(1);
  writeln('> Solucion inciso c): ');
  writeln('El porcentaje del conjunto [', alpha.primerValor, ';', alpha.ultimoValor, '] U [', beta.primerValor, ';', beta.ultimoValor, '] = ', p_gamma:0:2, '%');
-
+ Blank_Space(1);
+ writeln('> Solucion inciso d): ');
+ writeln('El porcentaje del conjunto [', omega.primerValor, ';', omega.ultimoValor, '] = ', p_omega:0:2, '%');
+ Blank_Space(3);
 end;
 procedure Ejercicio_3();
 begin
@@ -339,7 +348,7 @@ var
   opcion : integer;
 begin
   repeat
-    TextColor(5);
+    TextColor(2);
     writeln('=== Menu de Opciones ===');
     writeln('1- Soluciones Ejercicio 1');
     writeln('2- Soluciones Ejercicio 2');
