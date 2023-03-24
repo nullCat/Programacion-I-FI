@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="g3e16.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="2"/>
+        <CursorPos X="21" Y="9"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="g3e16.txt"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="2" Y="26"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="5">
+      <Position>
+        <Filename Value="g3e16.lpr"/>
+        <Caret Line="12" Column="26"/>
+      </Position>
+      <Position>
+        <Filename Value="g3e16.lpr"/>
+        <Caret Line="6" Column="51"/>
+      </Position>
+      <Position>
+        <Filename Value="g3e16.lpr"/>
+        <Caret Line="36" Column="37" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="g3e16.lpr"/>
+        <Caret Line="43" Column="12" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="g3e16.lpr"/>
+        <Caret Line="10" Column="27" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="g3e16.lpr"/>
+        <Caret Line="5" Column="39"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
