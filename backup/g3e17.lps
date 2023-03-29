@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="g3e17.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="32"/>
+        <CursorPos X="94" Y="74"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="g3e17.txt"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="6" Y="15"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="8">
+      <Position>
+        <Filename Value="g3e17.lpr"/>
+        <Caret Line="65" Column="119" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="g3e17.lpr"/>
+        <Caret Line="5" Column="14"/>
+      </Position>
+      <Position>
+        <Filename Value="g3e17.lpr"/>
+        <Caret Line="13" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="g3e17.lpr"/>
+        <Caret Line="33" Column="28" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="g3e17.lpr"/>
+        <Caret Line="37" Column="29" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="g3e17.lpr"/>
+        <Caret Line="35" Column="34"/>
+      </Position>
+      <Position>
+        <Filename Value="g3e17.lpr"/>
+        <Caret Line="39" Column="48" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="g3e17.lpr"/>
+        <Caret Line="33" Column="29" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="g3e17.lpr"/>
+        <Caret Line="39" Column="20" TopLine="22"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
