@@ -8,15 +8,14 @@
       <Unit>
         <Filename Value="g3e21.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="2"/>
-        <CursorPos X="6" Y="5"/>
+        <CursorPos X="40" Y="48"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="g3e21.txt"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="26"/>
         <UsageCount Value="20"/>

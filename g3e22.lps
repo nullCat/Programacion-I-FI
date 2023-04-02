@@ -6,24 +6,41 @@
     <BuildModes Active="Default"/>
     <Units>
       <Unit>
-        <Filename Value="g3e21.lpr"/>
+        <Filename Value="g3e22.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="40" Y="48"/>
+        <TopLine Value="22"/>
+        <CursorPos X="54" Y="70"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="g3e21.txt"/>
+        <Filename Value="g3e22.txt"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="26"/>
+        <CursorPos X="69"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+      <Unit>
+        <Filename Value="g3e22_salida.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory HistoryIndex="1">
+      <Position>
+        <Filename Value="g3e22.lpr"/>
+        <Caret Line="74" Column="22" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="g3e22_salida.txt"/>
+      </Position>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
